@@ -1485,22 +1485,22 @@
         "y": 600,
         "wires": [
             [
-                "d7dd2f40a1f215eb"
+                "7f0d32f2aecae37d"
             ],
             [
-                "3faeae184a3fae33"
+                "0c6630bed8a3b221"
             ],
             [
-                "eb414f915a68f33f"
+                "69ac563a04693b3f"
             ],
             [
-                "210d55968c8e5efb"
+                "70c4046fbf43c75c"
             ],
             [
-                "b7b7a1ea07adc379"
+                "3eccc9a0748eba92"
             ],
             [
-                "e6e2281c7881aebf"
+                "43b15f77b5380535"
             ]
         ]
     },
@@ -1749,6 +1749,156 @@
         "x": 800,
         "y": 220,
         "wires": []
+    },
+    {
+        "id": "7f0d32f2aecae37d",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 870,
+        "y": 520,
+        "wires": [
+            [
+                "d7dd2f40a1f215eb"
+            ]
+        ]
+    },
+    {
+        "id": "0c6630bed8a3b221",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 850,
+        "y": 560,
+        "wires": [
+            [
+                "3faeae184a3fae33"
+            ]
+        ]
+    },
+    {
+        "id": "69ac563a04693b3f",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 850,
+        "y": 580,
+        "wires": [
+            [
+                "eb414f915a68f33f"
+            ]
+        ]
+    },
+    {
+        "id": "70c4046fbf43c75c",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 870,
+        "y": 620,
+        "wires": [
+            [
+                "210d55968c8e5efb"
+            ]
+        ]
+    },
+    {
+        "id": "3eccc9a0748eba92",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 870,
+        "y": 640,
+        "wires": [
+            [
+                "b7b7a1ea07adc379"
+            ]
+        ]
+    },
+    {
+        "id": "43b15f77b5380535",
+        "type": "trigger",
+        "z": "c1f762c7b1dbce59",
+        "name": "",
+        "op1": "[]",
+        "op2": "",
+        "op1type": "json",
+        "op2type": "payl",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 890,
+        "y": 680,
+        "wires": [
+            [
+                "e6e2281c7881aebf"
+            ]
+        ]
     },
     {
         "id": "140f7d2e103dc4e3",
